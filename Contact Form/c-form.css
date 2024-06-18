@@ -1,0 +1,114 @@
+body {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 100vh; */
+  margin: 0;
+  font-family: "Karla", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 13px;
+}
+
+.input-layout {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.container {
+  width: 850px;
+  height: 650px;
+  background-color: hsl(200, 65%, 95%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contained {
+  width: 500px;
+  height: 480px;
+  background-color: hsl(0, 0%, 100%);
+  margin: auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h2 {
+  margin-top: -0.1px;
+}
+label {
+  /* font-size: 13px; */
+  margin: 10px 0 0 0;
+}
+.target {
+  margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form-row {
+  display: grid;
+  gap: 14px;
+}
+
+.radio-input {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  border-radius: 4px;
+  padding: 8px 18px;
+  border: 1px solid gray;
+  margin: 0;
+}
+
+.radio-input input {
+  display: block;
+}
+/* .radio-input label {
+  width: 100%;
+  display: block;
+  margin: 0;
+} */
+span {
+  margin-bottom: 10px;
+}
+
+textarea {
+  resize: none;
+}
+.row {
+  display: grid;
+  gap: 10px;
+}
+.label {
+  margin-left: 15px;
+  font-size: 13px;
+}
+.space {
+  margin: 27px 0;
+}
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: hsl(169, 82%, 27%);
+  color: white;
+  border: 0;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+@media (min-width: 640px) {
+  .form-row {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 14px;
+  }
+}
