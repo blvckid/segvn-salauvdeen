@@ -1,0 +1,145 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    font-family: "Lexend Deca", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+}
+
+h1{
+    text-transform: uppercase;
+    color: hsl(0, 0%, 95%);
+    font-family: "Big Shoulders Display", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+p{
+    color: hsla(0, 0%, 100%, 0.7);
+    font-size: 12px;
+}
+
+.col-preview{
+    display: flex;
+    flex-basis: 700px;
+} 
+
+.col-left{
+    background-color: hsl(31, 77%, 52%);
+    height: 290px;
+    padding: 25px 40px 15px 33px;
+    border-radius: 5px 0 0 5px;
+}
+
+.col-middle{
+    background-color: hsl(184, 100%, 22%);
+    height: 290px;
+    padding: 25px 33px 15px 35px;
+}
+
+.col-right{
+    background-color: hsl(179, 100%, 13%);
+    height: 290px;
+    padding: 25px 30px 15px 32px;
+    border-radius: 0 5px 5px 0;
+}
+
+button{
+    background-color: hsl(0, 0%, 95%);
+    border: 0;
+    border-radius: 13px;
+    padding: 7px 15px;
+    font-family: "Lexend Deca", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 9px;
+    margin: 50px 0 0 0;
+}
+
+
+
+.left-btn{
+   color:  hsl(31, 77%, 52%);
+}
+.left-btn:active{
+    background-color: hsl(31, 77%, 52%);
+    color: hsl(0, 0%, 95%);
+    border: 1px solid  hsl(0, 0%, 95%);
+    cursor: pointer;
+    
+}
+
+.middle-btn{
+   color: hsl(184, 100%, 22%) ;
+}
+.middle-btn:active{
+    background-color: hsl(184, 100%, 22%);
+    color: hsl(0, 0%, 95%);
+    border:1px solid hsl(0, 0%, 95%);
+    cursor: pointer;
+    
+}
+
+.right-btn{
+   color: hsl(179, 100%, 13%) ;
+}
+.right-btn:active{
+    background-color:hsl(179, 100%, 13%);
+    color: hsl(0, 0%, 95%);
+    border:1px solid hsl(0, 0%, 95%);
+    cursor: pointer;
+    
+}
+
+.attribution{
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 0 40px;
+}
+
+
+@media (max-width:375px){
+    p{
+        font-size: 10px;
+    }
+
+    .col-preview{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.col-left{
+    height: 220px;
+    width: 150px;
+    border-radius: 4px 4px 0 0;
+    padding-right: 35px;
+}
+
+.col-middle{
+    height: 220px;
+    width: 150px;
+}
+
+.col-right{
+    height: 220px;
+    width: 150px;
+    border-radius: 0 0 4px 4px;
+    padding-left: 38px;
+}
+
+button{
+    margin: 5px 0 0 0;
+    font-size: 7px;
+}
+
+}

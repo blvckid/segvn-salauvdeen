@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/pc.css" />
+
+    <title>Frontend Mentor | Stats preview card component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="preview">
+      <section class="preview-left">
+        <h1 class="left-header">
+          Get <span style="color: hsl(277, 64%, 61%)">insights</span> that help
+          your business grow.
+        </h1>
+        <p class="middle-left">
+          Discover the benefits of data analytics and make better decisions
+          regarding revenue, customer experience, and overall efficiency.
+        </p>
+        <div class="bottom-left">
+          <p>
+            <span class="inter is-different"
+              >10<span class="small">k</span>+</span
+            ><br />companies
+          </p>
+          <p><span class="inter is-different">314</span><br />templates</p>
+          <p><span class="inter">12m+</span><br />queries</p>
+        </div>
+      </section>
+      <div class="pic">
+        <picture>
+          <source
+            media="(min-width:480px)"
+            srcset="images/image-header-desktop.jpg"
+          />
+          <source
+            media="(max-width:480px)"
+            srcset="images/image-header-mobile.jpg"
+          />
+          <img src="images/image-header-desktop.jpg" alt="" />
+        </picture>
+        <div class="overlay overlay-effect"></div>
+      </div>
+    </div>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Salaudeen Segun</a>.
+    </div>
+  </body>
+</html>
