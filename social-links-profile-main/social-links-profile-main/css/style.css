@@ -1,0 +1,84 @@
+body{
+    background: hsl(0, 0%, 8%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    min-height: 100vh;
+}
+
+.social{
+    background: hsl(0, 0%, 12%);
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    border-radius: 0.3rem;
+}
+
+.social p{
+    font-size: 14px;
+    color: hsl(0, 0%, 100%);
+    opacity: 80%;
+}
+
+.pp{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    text-align: center;
+    line-height: 1.2;
+}
+
+.pp img{
+    display: block;
+    height: 5rem;
+    margin: 1rem 0 0;
+    border-radius: 50%;
+}
+
+.pp h4{
+    color: hsl(0, 0%, 100%);
+    margin: 0;
+}
+
+.pp span{
+   color: hsl(75, 94%, 57%);
+   font-size: 0.6rem;
+}
+
+.social button{
+    background: hsl(0, 0%, 20%);
+    color: hsl(0, 0%, 100%);
+    border: none;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 10px;
+    padding: 0.5rem 0;
+    margin: 0.3rem;
+    border-radius: 0.3rem;
+}
+
+.social button:hover{
+    background: hsl(75, 94%, 57%);
+    color: black;
+    cursor: pointer;
+    
+}
+
+@media only screen and (max-width: 375px) {
+    .social p{
+        font-size: 0.6rem;
+    }
+    
+}
+
+.attribution{
+    margin: 1rem 0;
+}
