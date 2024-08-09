@@ -1,0 +1,174 @@
+body{
+    background: hsl(330, 100%, 98%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-size: 11px;
+    font-style: normal;
+} 
+    
+.page{
+    background: hsl(0, 0%, 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 35%;
+    padding: 2rem;
+    border-radius: 0.7rem;
+    min-height: 100vh;
+}
+
+.page .shorts h2{
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;  
+}
+
+.page p{
+    color: hsl(30, 10%, 34%);
+    font-weight: 500;
+    opacity: 75%;
+}
+
+.omelette img{
+    width: 100%;
+    border-radius: 0.5rem;
+    padding: 0;
+}
+
+.steps{
+    background: hsl(330, 100%, 98%);
+    width: 100%;
+    border-radius: 0.5rem;
+}
+
+.steps h5{
+    margin-bottom: 0;
+    margin-left: 1.4rem;
+    color: hsl(332, 51%, 32%);
+}
+
+.steps ul{
+    margin: 0;
+}
+
+.steps span, .guide span{
+    color: hsl(24, 5%, 18%);
+    font-weight: 800;
+    opacity: 100%;
+}
+
+.steps ul li p{
+    margin: 0.7rem;
+}
+
+.items{
+    width: 100%;
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+
+
+.items h3, .guide h3, .values h3{
+    color: hsl(14, 45%, 36%);
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.items ul li{
+    margin-left: -1.4rem;
+    color: hsl(14, 45%, 36%);
+}
+
+.items ul li p{
+    margin: 0.7rem;
+}
+
+.guide{
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+
+
+.guide ol li{
+    color: hsl(14, 45%, 36%);
+    font-weight: 700;
+    font-size: 11px;
+    margin-left: -1.4rem;
+}
+
+.guide ol li p{
+    margin: 0.7rem;
+}
+
+.guide b{
+    color: hsl(24, 5%, 18%);
+    font-weight: 700;
+    opacity: 80%;
+}
+
+.values{
+    width: 100%;
+}
+
+table{
+    width: 80%;
+    margin-left: 0.5rem;
+}
+
+table tr td{
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+    padding: 0.75rem;
+    color: hsl(30, 10%, 34%);
+    font-weight: 500;
+    opacity: 75%;
+    
+}
+
+table .td-last td{
+    border-bottom: none;
+}
+
+table .td{
+    color: hsl(14, 45%, 36%);
+    font-weight: 700;
+}
+
+.attribution{
+    margin: 1rem 0;
+}
+
+
+
+@media only screen and (max-width: 700px) {
+    .page{
+        width: 50%;
+    }
+    
+}
+
+@media only screen and (max-width: 375px) {
+    .page{
+        width: 75%;
+        padding: 0;
+    }
+
+    .omelette img{
+        border-radius: 0;
+    }
+
+    .details{
+        padding: 1rem;
+    }
+
+    .details .shorts h2{
+        font-size: 20px;
+        margin: 0;
+
+    }
+    
+}
